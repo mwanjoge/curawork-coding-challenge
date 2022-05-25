@@ -2,17 +2,18 @@
 
 Hello and welcome to the Curawork Coding Challenge. Thank you for your interest in becoming part of our team. The purpose of this challenge is to give you a feeling for the tasks that await you at Curawork and to familiarize you with our current stack.
 
-The whole process should take about 4-6 hours. We do not necessarily require you to do everything, the balance between qualitative code and results is crucial.
+The whole process should not take you longe than 4-5 hours. We do not necessarily require you to do everything, the balance between qualitative code and results is crucial.
 
 ## Tech Stack for this challenge 🐘
 
 - Laravel 9, PHP 8
 - Bootsrap 5
 - JQuery
+- MySQL
 
 The project already includes usable UI components, so the focus is mainly on the backend with a bit of Jquery.
 
-The project in production is very similar: a Laravel 8 monolith + Bootsrap + Jquery. In the future, however, the whole thing will probably be rewritten to a REST API + Flutter / React Native.
+The project in production is very similar: A Laravel 8 monolith + Bootsrap + Jquery. In the future, however, the whole thing will probably be rewritten to a REST API + Flutter / React Native.
 
 ## Getting Started 🏃
 
@@ -64,7 +65,6 @@ Further requirements:
 
     ![grafik](https://user-images.githubusercontent.com/76958067/170007652-8dc86360-9b06-46d0-bffd-c412e928ae88.png)
     
-
 - To test all of the above please include seeders and factories, to generate suggestions, requests by other users and connections in common with the command:
     ```php artisan migrate --seed```. Connections could then be tested by accepting a request.
 
@@ -76,7 +76,7 @@ Further requirements:
 
 - There are blade components such as connection, request and so on. You can use all of them or decide to only use one component with if clauses.
 
-- Before each ajax call, show the loading skeletons and hide them after a successfull response from the server.
+- Before each ajax call (only for getting suggestions, request and connections), show the loading skeletons and hide them after a successfull response from the server.
 
 *(HTML element should disappear afterwards)
 
