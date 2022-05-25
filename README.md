@@ -22,7 +22,7 @@ The project in production is very similar: A Laravel 8 monolith + Bootsrap + Jqu
 - Create a database, name it 'curawork_coding_challenge'.
 - Setup .env file
 - Run ```composer install``` and ``` php artisan key:generate ```.
-- When you see the login page, head over the register page, create an account and log in. After that you should see some of the components in the images below and you can get started.
+- When you see the login page, head over the register page, create an account and log in. After that you should see some of the components in the images below and you can get started in the network_connections.blade.php file.
  
 ## Objective ✅
 
