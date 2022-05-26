@@ -26,6 +26,10 @@ The project in production is very similar: A Laravel 8 monolith + Bootsrap + Jqu
  
 ## Objective ✅
 
+Demo Video:
+
+https://user-images.githubusercontent.com/76958067/170489878-41332cb5-6264-427e-a094-eeb09b8c8af4.mp4
+
 Develop common connection features of social media platforms. In detail: 
 
 As a user:
@@ -66,10 +70,38 @@ Further requirements:
     ![grafik](https://user-images.githubusercontent.com/76958067/170007652-8dc86360-9b06-46d0-bffd-c412e928ae88.png)
     
 - To test all of the above please include seeders and factories, to generate suggestions, requests by other users and connections in common with the command:
+       
+    DatabaseSeeder.php
     ```php artisan migrate --seed```. Connections could then be tested by accepting a request.
 
-    ![grafik](https://user-images.githubusercontent.com/76958067/170030608-ca4c83e0-c1a4-488b-b701-e2e48b32929d.png)    
+    ```
+    <?php
 
+    namespace Database\Seeders;
+
+    use Illuminate\Database\Seeder;
+    use Database\Seeders\UsersSeeder;
+    use Database\Seeders\RequestsSeeder;
+    use Database\Seeders\ConnectionsInCommonSeeder;
+    use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+    class DatabaseSeeder extends Seeder
+    {
+        /**
+         * Seed the application's database.
+         *
+         * @return void 
+         */
+        public function run()
+        {
+            $this->call(UsersSeeder::class);
+            $this->call(RequestsSeeder::class);
+            $this->call(ConnectionsInCommonSeeder::class);
+        }
+    }    
+    
+    ```
+ 
 - If there are no connections in common, the button should get the class 'disabled'.
 
 - All new routes should be written into a new routing file (e.g. userConnection.php), that must be registered inside the RouteServiceProvider.php file.
