@@ -112,22 +112,6 @@ Further requirements:
 
 *(HTML element should disappear afterwards)
 
-## Recommended database structure 🏗️
-
-To map the above in a database schema, we recommend creating a table 'user_followers' with the following columns and using left joins with the 'users' table (If you have something else in mind that you think will solve the task more efficiently, feel free to do so, but include explanations and stick to MySQL):
-
-![grafik](https://user-images.githubusercontent.com/76958067/170064172-c23c0d12-1219-4634-b7c3-f4ceab024b58.png)
-
-As a result, 
-- Connection: 
-
-    ![grafik](https://user-images.githubusercontent.com/76958067/170066996-c31b0017-373a-4a83-9eef-f36fd722c2c7.png)
-- Request: 
-
-    ![grafik](https://user-images.githubusercontent.com/76958067/170066892-66ba393c-1bf1-465a-88ab-27f38d8b050a.png)
-    
-- Suggestions: difference quantity of all users, connections, sent request and received requests.
-
 ## Coding and naming conventions 🚨
 
 - For Controllers please check out the following video: https://www.youtube.com/watch?v=MF0jFKvS4SI or have a look at https://github.com/adamwathan/laracon2017. The core idea is to try and stick to the 7 standard REST/CRUD actions in your controllers:
