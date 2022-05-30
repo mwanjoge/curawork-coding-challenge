@@ -2,7 +2,7 @@
 
 Hello and welcome to the Curawork Coding Challenge. Thank you for your interest in becoming part of our team. The purpose of this challenge is to give you a feeling for the tasks that await you at Curawork and to familiarize you with our current stack.
 
-The whole process should not take you longer than 4-5 hours. We do not necessarily require you to do everything, the balance between qualitative code and results is crucial.
+The whole process should not take you longer than 3-5 hours. We do not necessarily require you to do everything, the balance between qualitative code and results is crucial.
 
 ## Tech Stack for this challenge 🐘
 
