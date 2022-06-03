@@ -2,7 +2,7 @@
 
 Hello and welcome to the Curawork Coding Challenge. Thank you for your interest in becoming part of our team. The purpose of this challenge is to give you a feeling for the tasks that await you at Curawork and to familiarize you with our current stack.
 
-The whole process should not take you longer than 3-5 hours. We do not necessarily require you to do everything, the balance between qualitative code and results is crucial.
+The whole process should not take you longer than 3-5 hours.
 
 ## Tech Stack for this challenge 🐘
 
@@ -109,6 +109,8 @@ Further requirements:
 - There are blade components such as connection, request and so on. You can use all of them or decide to only use one component with if clauses.
 
 - Before each ajax call (only for getting suggestions, request and connections), show the loading skeletons and hide them after a successfull response from the server.
+
+- Javascript code should be written in the main.js file
 
 *(HTML element should disappear afterwards)
 
