@@ -4,6 +4,8 @@ Hello and welcome to the Curawork Coding Challenge. Thank you for your interest 
 
 The whole process should not take you longer than 3-5 hours.
 
+PLEASE NOTE: For us the most important aspect we are looking for in the code challenge is that you respect the guidelines and specifications given in the description. This is the only way we can identify whether you are able to follow the structure of our project in the way that we imagine it.
+
 ## Tech Stack for this challenge 🐘
 
 - Laravel 9, PHP 8
