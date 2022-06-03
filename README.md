@@ -2,7 +2,7 @@
 
 Hello and welcome to the Curawork Coding Challenge. Thank you for your interest in becoming part of our team. The purpose of this challenge is to give you a feeling for the tasks that await you at Curawork and to familiarize you with our current stack.
 
-The whole process should not take you longer than 3-5 hours.
+The whole process should not take you longer than a few hours.
 
 PLEASE NOTE: For us the most important aspect we are looking for in the code challenge is that you respect the guidelines and specifications given in the description. This is the only way we can identify whether you are able to follow the structure of our project in the way that we imagine it.
 
