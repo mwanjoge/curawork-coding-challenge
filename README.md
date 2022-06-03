@@ -13,7 +13,7 @@ PLEASE NOTE: For us the most important aspect we are looking for in the code cha
 - JQuery
 - MySQL
 
-The project already includes usable UI components, so the focus is mainly on the backend with a bit of Jquery.
+Please use the given UI componentes / blade files for the frontend, and focus on the backend only with a bit of Jquery.
 
 The project in production is very similar: A Laravel 8 monolith + Bootsrap + Jquery. In the future, however, the whole thing will probably be rewritten to a REST API + Flutter / React Native.
 
@@ -135,4 +135,5 @@ Further requirements:
 
 ## When you are done 🎖️
 
+- Please check again if all requirements have been done as described. If there are things that need explanation, add them as a text message in your repository (Github  Conversations).
 - Write a mail to jakob@curawork.de containing a link to a repository with your code.
