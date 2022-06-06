@@ -41,4 +41,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function commonConnections(){
+        return $this->hasMany(UserConnection::class);
+    }
+
+    public function userRequests(){
+        return $this->hasMany(UserRequest::class);
+    }
+
+    public function userConnections(){
+        return $this->hasMany(UserConnection::class);
+    }
 }
