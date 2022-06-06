@@ -2,12 +2,12 @@ var skeletonId = 'skeleton';
 var contentId = '#content';
 var createRequestBtn = '.create_request_btn';
 var skipCounter = 0;
-var takeAmount = 5;
+var takeAmount = 10;
 var fullUrl;
 
 function loadMoreData(){
     $('#load_more_btn').click(function(){
-        var pageCount =takeAmount + 5;
+        var pageCount =takeAmount + 10;
         takeAmount =pageCount;
         $.ajax({
             url: fullUrl,
